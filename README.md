@@ -44,7 +44,7 @@ No Worker script or `@astrojs/cloudflare` adapter is required.
 
 Production target: **https://chefevidence.music**
 
-CTA routes to: `sales@desertrich.com`
+CTA routes to: `erg@chefevidence.music`
 
 ## Notes
 
