@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chefevidence.music/sitemap-index.xml
+Sitemap: https://desigrs.com/sitemap-index.xml

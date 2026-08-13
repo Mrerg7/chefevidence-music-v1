@@ -9,14 +9,14 @@ interface Props {
 }
 
 const {
-  title = 'ChefEvidence',
+  title = 'desigrs',
   description = '',
-  image = 'https://imagedelivery.net/-sPAUAWeA405NiWJ0SNIQA/d94dfcef-2a1c-4bdf-c3d5-d73ae5cc5f00/public',
+  image = 'https://imagedelivery.net/-sPAUAWeA405NiWJ0SNIQA/d37c05fa-90e9-4601-d889-8b174b54a600/public',
   noindex = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const siteName = 'chefevidence.music';
+const siteName = 'desigrs.com';
 const ogImage = image;
 ---
 
@@ -30,7 +30,6 @@ const ogImage = image;
     <!-- Primary -->
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="google-site-verification" content="QJsqC4_jU1LMTckldM9QFuYoSvG3_mnc1VkoVoRXt34" />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonicalURL} />
 
@@ -52,7 +51,7 @@ const ogImage = image;
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="ChefEvidence" />
+    <meta property="og:image:alt" content="desigrs" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter / X -->
@@ -60,21 +59,21 @@ const ogImage = image;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
-    <meta name="twitter:image:alt" content="ChefEvidence" />
+    <meta name="twitter:image:alt" content="desigrs" />
 
     <!-- Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": siteName,
-      "url": "https://chefevidence.music",
-      "description": description || "ChefEvidence",
+      "url": "https://desigrs.com",
+      "description": description || "desigrs",
       "image": ogImage,
       "publisher": {
         "@type": "Organization",
-        "name": "ChefEvidence",
-        "url": "https://chefevidence.music",
-        "email": "erg@chefevidence.music"
+        "name": "desigrs",
+        "url": "https://desigrs.com",
+        "email": "sales@desertrich.com"
       }
     })} />
   </head>

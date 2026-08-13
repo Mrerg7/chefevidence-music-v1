@@ -1,4 +1,4 @@
-# ChefEvidence.music
+# desigrs.com
 
 Mysterious, image-driven static site built with **Astro 7** + **Tailwind CSS 4**, deployed as pure **Cloudflare Workers Static Assets** (no adapter, assets-only).
 
@@ -42,9 +42,9 @@ No Worker script or `@astrojs/cloudflare` adapter is required.
 
 ## Domain
 
-Production target: **https://chefevidence.music**
+Production target: **https://desigrs.com**
 
-CTA routes to: `erg@chefevidence.music`
+CTA routes to: `sales@desertrich.com`
 
 ## Notes
 
