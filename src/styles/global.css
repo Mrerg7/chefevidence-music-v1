@@ -10,14 +10,17 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* Base */
+/* Base — 16px root for mobile readability */
 html {
   @apply bg-[var(--color-void)] text-[var(--color-ghost)] antialiased;
+  font-size: 16px;
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  @apply min-h-dvh overflow-x-hidden;
+  @apply min-h-dvh overflow-x-hidden text-base leading-relaxed;
 }
 
 /* Mystic image effects */
